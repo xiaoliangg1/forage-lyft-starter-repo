@@ -10,5 +10,5 @@ class Battery(Car, ABC):
         self.current_date = current_date
 
     @abstractmethod
-    def engine_should_be_serviced(self):
+    def battery_should_be_serviced(self):
         pass
